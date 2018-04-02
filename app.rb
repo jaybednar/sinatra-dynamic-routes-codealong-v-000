@@ -21,7 +21,7 @@ class App < Sinatra::Base
   end
 
   get '/multiply/:num_1/:num_2' do
-    num_1 * num_2
+    :num_1 * :num_2
   end
 
 end
